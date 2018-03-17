@@ -1,0 +1,49 @@
+$primary: red;
+$enable-rounded: false;
+$font-family-sans-serif: Lato,Ubuntu,Calibri;
+$headerbackgroundColor: #1e1a49 !default;
+$active:#78a3ed;
+$jumbotron-bg:#1b3151;
+$hr-border-color:grey;
+
+.text-wrong
+{
+	color:red;
+}
+
+.header_backgroundColor
+{
+	background:$headerbackgroundColor;
+}
+
+.color_primary
+{
+	color:#ffffff;
+}
+
+.nav-link
+{
+	color:$active;
+}
+
+.nav-item:hover .nav-link
+{
+	color:#b7d1ff;
+}
+
+.container-fluid-force
+{
+	padding-left:0;
+	padding-right:0;
+}
+
+.color_secondary
+{
+	color:#6ea1f4;
+}
+
+
+.list-unstyled
+{
+	list-style-type:none;
+}
