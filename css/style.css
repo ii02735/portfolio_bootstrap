@@ -1,0 +1,72 @@
+img[src$=".svg"]
+{
+	width:10rem;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+img[src="svg/pres.svg"],
+img[src="svg/pre_acquis.svg"]
+{
+	width: 15rem;
+}
+
+.list-unstyled > li img
+{
+	width:15rem;
+}
+
+button.navbar-toggler
+{
+	color:#b7d1ff;
+}
+
+.welcome_animation
+{
+	animation:slide 1s;
+	-webkit-animation:slide ls;
+}
+
+body
+{
+	background:#19253A;
+	color:white;
+}
+
+.important
+{
+	color:gold;
+}
+
+
+@-webkit-keyframes slide
+{
+	0%{
+		opacity:0;
+		transform:translateY(40%);
+	}
+	100%{
+		opacity:1;
+		transform:translateY(0%);
+	}
+}
+
+@keyframes slide
+{
+	0%{
+		opacity:0;
+		transform:translateY(40%);
+	}
+	100%{
+		opacity:1;
+		transform:translateY(0%);
+	}
+}
